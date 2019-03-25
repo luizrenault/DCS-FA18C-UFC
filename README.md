@@ -1,5 +1,5 @@
 # DCS-FA18C-UFC
-This is a hardware and software project to build an Up Front Controller for the DCS F/A-18C Hornet
+This is a hardware and software project to build an Up Front Controller for the [DCS World](https://www.digitalcombatsimulator.com/en/products/world/) [F/A-18C Hornet](https://www.digitalcombatsimulator.com/en/products/planes/hornet/)
 
 I would love to have a full Simpit for every aircraft – who
 wouldn’t – but space / time / money all conspire against this.  I personally
@@ -13,7 +13,7 @@ a hardware Up Front Controller.  This is what I am presenting here.   While t
 am doing.  The UFC just has power going to it, and it has the potential to
 drive future parts of the cockpit via i2c (I am aware of the limitations and
 potential problems with the approach of using i2c, but it seems reliable in my
-set up).   The UFC is controlled by an ESP32 board to get me the direct pins
+set up).   The UFC is controlled by an [ESP32](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) board to get me the direct pins
 and interrupts that I needed for the encoders.  Because there is only a single
 power connecter to the UFC, it means that it can be removed from the set up
 extremely quickly.  Likewise, the Thrustmaster Cougar MFDs are also very easy
