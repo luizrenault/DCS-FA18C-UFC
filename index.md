@@ -38,7 +38,7 @@ current design that I’m not planning to do this.
 
 I’m going to put a third Cougar MFD in for the AMPCD, but
 I’m still considering how I can do this while keeping the mounting discrete.
-![UFC Running With Helios}(images/ufc1.JPG)
+![UFC Running With Helios](images/ufc2A.JPG)
 ### The History of this Project
 
 I started out many years ago with the A-10C and Loz’s
