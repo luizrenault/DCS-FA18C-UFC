@@ -21,11 +21,11 @@ to remove as they simply hang from the top of the screen, primarily to allow
 hiding of the USB cables.  I rotated the rocker switches and 3D printed the
 hangers so the MFDs sit over the top corners of the 23 inch Dell touch screen.
 
-The UFC itself is pretty simple using DLG2416 displays (I
+The UFC itself is pretty simple using [DLG2416](https://www.mouser.co.uk/datasheet/2/311/00034171_0-1196319.pdf) displays (I
 like the dots).  Unfortunately these do not have any programmable characters,
 but the result is OK IMHO.  I would have preferred  16 and 7 segment displays,
 but I could not find suitable devices.  The Comm Channel displays are 16
-segment LED displays driven by the same HT16K32 that reads the keys and
+segment LED displays driven by the same [Holtek HT16K33](https://www.holtek.com/productdetail/-/vg/HT16K33) that reads the keys and
 switches.  Other things I would change if I ever revised the UFC design would
 be to replace the 2 x volumes and the brightness knob with potentiometers and
 put an i2c ADC onto the board – but I am happy enough with the encoders in the
@@ -38,7 +38,7 @@ I’m still considering how I can do this while keeping the mounting discrete.
 
 I started out many years ago with the A-10C and Loz’s
 profile for Helios which was a a great place to start.  After a while, I built
-a real caution panel based on the Holtek HT16K32 which was driven by an Arduino
+a real caution panel based on the [Holtek HT16K33](https://www.holtek.com/productdetail/-/vg/HT16K33) which was driven by an Arduino
 Pro Micro which communicated via a serial connection to a c# program which
 talked to DCS.  Over time, the A-10C parts grew a bit and I had CMSC, CMSP,
 UFC, NMSP and a few other panels.
