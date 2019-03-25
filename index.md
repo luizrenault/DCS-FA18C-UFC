@@ -1,9 +1,9 @@
-### Project for a F/A-18C Hornet Up Front Controller for DCS World
+## Project for a F/A-18C Hornet Up Front Controller for DCS World
 
 This repository contains the hardware and software for an ESP32 based Hornet UFC for use with DCS World.  There are also 3d parts that are in the project to act as an enclosure.
 
 ### Background
-# DCS-FA18C-UFC
+#### DCS-FA18C-UFC
 This is a hardware and software project to build an Up Front Controller for the [DCS World](https://www.digitalcombatsimulator.com/en/products/world/) [F/A-18C Hornet](https://www.digitalcombatsimulator.com/en/products/planes/hornet/)
 
 I would love to have a full Simpit for every aircraft – who
